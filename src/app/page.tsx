@@ -58,7 +58,7 @@ export default function Home() {
 
           <div className="flex flex-col sm:flex-row items-start gap-4">
             <Link
-              href={process.env.METTING_URL || '#'}
+              href={process.env.NEXT_PUBLIC_MEETING_URL || '#'}
               target="_blank"
               className=" bg-[#4A5443] hover:bg-[#3D4537] text-white px-6 py-3.5 rounded-[4px] text-[14px] inline-block"
             >
@@ -165,7 +165,7 @@ export default function Home() {
               </div>
 
               <div>
-                <Link  href={process.env.METTING_URL || '#'} target='_blank' className="inline-flex items-center gap-3 bg-[#2D4739] hover:bg-[#203328] text-white px-6 py-3 rounded-[4px] text-[14px]">
+                <Link  href={process.env.NEXT_PUBLIC_MEETING_URL || '#'} target='_blank' className="inline-flex items-center gap-3 bg-[#2D4739] hover:bg-[#203328] text-white px-6 py-3 rounded-[4px] text-[14px]">
                   Book a Free Consultation <span>&rarr;</span>
                 </Link>
               </div>

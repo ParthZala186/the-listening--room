@@ -214,7 +214,7 @@ export default function About() {
 
             {/* CTA Button */}
             <Link
-              href={process.env.METTING_URL || '#'}
+              href={process.env.NEXT_PUBLIC_MEETING_URL || '#'}
               target="_blank"
               rel="noopener noreferrer"
               className="

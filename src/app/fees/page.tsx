@@ -249,7 +249,7 @@ export default function Fees() {
 
           <div className="shrink-0 flex flex-col items-center lg:items-end w-full lg:w-auto mt-2 lg:mt-0 font-sans">
             <Link
-              href={process.env.METTING_URL || '#'}
+              href={process.env.NEXT_PUBLIC_MEETING_URL || '#'}
               target='_blank'
               className="w-full lg:w-auto inline-flex items-center justify-center px-6 py-3.5 text-[14px] rounded-md font-medium mb-3 transition-all bg-white text-[#2D4739] hover:bg-[#FDFBF7]"
             >

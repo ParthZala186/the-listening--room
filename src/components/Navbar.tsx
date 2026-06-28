@@ -25,7 +25,7 @@ export default function Navbar() {
     <nav className="w-full bg-white relative z-50 font-sans antialiased">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-24">
-          
+
           {/* Logo Section */}
           <Link href="/" className="flex items-center gap-3 group" onClick={closeMenu}>
             <div className="w-10 h-10 rounded-full border border-[#2D4739]/30 flex items-center justify-center text-[#2D4739] bg-white/40 shadow-xs">
@@ -46,19 +46,18 @@ export default function Navbar() {
             {navLinks.map((link) => {
               const isActive = pathname === link.href;
               return (
-                <Link 
-                  key={link.name} 
+                <Link
+                  key={link.name}
                   href={link.href}
-                  className={`text-[14px] font-medium transition-colors hover:text-[#2D4739] ${
-                    isActive ? 'text-[#2D4739] border-b border-[#2D4739] pb-0.5' : 'text-[#5A6355]'
-                  }`}
+                  className={`text-[14px] font-medium transition-colors hover:text-[#2D4739] ${isActive ? 'text-[#2D4739] border-b border-[#2D4739] pb-0.5' : 'text-[#5A6355]'
+                    }`}
                 >
                   {link.name}
                 </Link>
               );
             })}
-            <Link 
-              href="/contact" 
+
+            <Link href={process.env.NEXT_PUBLIC_MEETING_URL || '#'} target='_blank'
               className="bg-[#4A5443] text-white px-6 py-3 text-[13px] font-medium tracking-wide rounded-[4px] hover:bg-[#3D4537] transition-colors"
             >
               Book Free Consultation
@@ -67,7 +66,7 @@ export default function Navbar() {
 
           {/* Mobile Menu Toggle */}
           <div className="md:hidden flex items-center">
-            <button 
+            <button
               onClick={() => setIsOpen(!isOpen)}
               className="text-[#2D4739] focus:outline-none p-2"
               aria-label="Toggle Menu"
@@ -86,22 +85,19 @@ export default function Navbar() {
             {navLinks.map((link) => {
               const isActive = pathname === link.href;
               return (
-                <Link 
-                  key={link.name} 
+                <Link
+                  key={link.name}
                   href={link.href}
                   onClick={closeMenu}
-                  className={`block px-3 py-3.5 text-[15px] font-medium border-b border-[#E8E6DF]/40 transition-colors ${
-                    isActive ? 'text-[#2D4739] font-bold' : 'text-[#5A6355]'
-                  }`}
+                  className={`block px-3 py-3.5 text-[15px] font-medium border-b border-[#E8E6DF]/40 transition-colors ${isActive ? 'text-[#2D4739] font-bold' : 'text-[#5A6355]'
+                    }`}
                 >
                   {link.name}
                 </Link>
               );
             })}
             <div className="pt-5 pb-1">
-              <Link 
-                href="/contact" 
-                onClick={closeMenu}
+              <Link href={process.env.NEXT_PUBLIC_MEETING_URL || '#'} target='_blank'
                 className="block w-full text-center bg-[#2D4739] hover:bg-[#203328] text-white px-5 py-3.5 text-[14px] font-medium tracking-wide rounded-[4px]"
               >
                 Book Free Consultation
