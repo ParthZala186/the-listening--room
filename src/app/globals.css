@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@theme {
+  /* Brand Colors */
+  --color-brand-cream: #F9F8F4;
+  --color-brand-forest: #3A5043;
+  --color-brand-forestHover: #2F4236;
+  --color-brand-sage: #EAECE5;
+  
+  /* UPDATED EXACT TEXT COLORS */
+  --color-brand-textDark: #232B25;  /* For Headings - deep charcoal green */
+  --color-brand-textMuted: #4A544D; /* For Paragraphs - elegant olive grey */
+
+  /* Custom Fonts */
+  --font-sans: var(--font-inter);
+  --font-playfair: var(--font-playfair);
+}
+
+body {
+  background-color: var(--color-brand-cream);
+  color: var(--color-brand-textDark);
+}
