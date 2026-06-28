@@ -161,7 +161,7 @@ export default function FAQ() {
             </div>
           </div>
           <Link
-            href="https://calendly.com/ft_185/new-meeting"
+            href={process.env.NEXT_PUBLIC_MEETING_URL || '#'}
             target="_blank"
             className="bg-[#2D4739] text-white px-6 py-3 rounded-md text-[13px] font-medium tracking-wide hover:bg-[#203328] transition-colors shrink-0 w-full md:w-auto text-center font-sans"
           >

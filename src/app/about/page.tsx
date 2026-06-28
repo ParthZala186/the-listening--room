@@ -214,7 +214,7 @@ export default function About() {
 
             {/* CTA Button */}
             <Link
-              href="https://calendly.com/ft_185/new-meeting"
+              href={process.env.NEXT_PUBLIC_MEETING_URL || '#'}
               target="_blank"
               rel="noopener noreferrer"
               className="

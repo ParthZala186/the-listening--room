@@ -179,7 +179,7 @@ export default function Contact() {
               </div>
               <div className="shrink-0 z-10 w-full lg:w-auto">
                 <Link
-                  href="https://calendly.com/ft_185/new-meeting"
+                  href={process.env.NEXT_PUBLIC_MEETING_URL || '#'}
                   target="_blank"
                   className="inline-flex items-center justify-center w-full lg:w-auto px-7 py-3.5 bg-[#2D4739] text-white hover:bg-[#203328] transition-colors duration-300 text-[13px] rounded-md tracking-wide font-medium font-sans shadow-xs"
                 >
@@ -210,7 +210,7 @@ export default function Contact() {
           </div>
           <div className="shrink-0 z-10 w-full lg:w-auto">
             <Link
-              href="https://calendly.com/ft_185/new-meeting"
+              href={process.env.NEXT_PUBLIC_MEETING_URL || '#'}
               target="_blank"
               className="inline-flex items-center justify-center w-full lg:w-auto px-7 py-3.5 bg-[#2D4739] hover:bg-[#203328] text-white transition-colors duration-300 text-[13px] rounded-md tracking-wide font-medium font-sans shadow-xs"
             >

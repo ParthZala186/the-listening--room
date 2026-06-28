@@ -58,7 +58,7 @@ export default function Home() {
 
           <div className="flex flex-col sm:flex-row items-start gap-4">
             <Link
-              href="https://calendly.com/ft_185/new-meeting"
+              href={process.env.NEXT_PUBLIC_MEETING_URL || '#'}
               target="_blank"
               className=" bg-[#4A5443] hover:bg-[#3D4537] text-white px-6 py-3.5 rounded-[4px] text-[14px] inline-block"
             >
@@ -72,16 +72,16 @@ export default function Home() {
 
         {/* Right Side: Hero Image sits edge-to-edge on right monitor boundary */}
         <div className="relative w-full md:w-[45%] aspect-[4/3] md:aspect-auto md:h-[550px] lg:h-[600px] shrink-0">
-  <Image
-    src="/images/HeroImage.jpg"
-    alt="Calming therapy room layout with a light warm lounge chair"
-    fill
-    className="object-cover object-center"
-    priority
-    quality={85}
-    sizes="(max-width: 768px) 100vw, 45vw"
-  />
-</div>
+          <Image
+            src="/images/HeroImage.jpg"
+            alt="Calming therapy room layout with a light warm lounge chair"
+            fill
+            className="object-cover object-center"
+            priority
+            quality={85}
+            sizes="(max-width: 768px) 100vw, 45vw"
+          />
+        </div>
       </section>
 
       {/* 2. SERVICES SECTION (Pure crisp white background layout) */}
@@ -165,7 +165,7 @@ export default function Home() {
               </div>
 
               <div>
-                <Link href="https://calendly.com/ft_185/new-meeting" target='_blank' className="inline-flex items-center gap-3 bg-[#2D4739] hover:bg-[#203328] text-white px-6 py-3 rounded-[4px] text-[14px]">
+                <Link  href={process.env.NEXT_PUBLIC_MEETING_URL || '#'} target='_blank' className="inline-flex items-center gap-3 bg-[#2D4739] hover:bg-[#203328] text-white px-6 py-3 rounded-[4px] text-[14px]">
                   Book a Free Consultation <span>&rarr;</span>
                 </Link>
               </div>
