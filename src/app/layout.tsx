@@ -3,6 +3,8 @@ import { Inter, Playfair_Display } from 'next/font/google';
 import './globals.css';
 import Navbar from '@/components/Navbar';
 import ConditionalFooter from '@/components/ConditionalFooter';
+import { Analytics } from '@vercel/analytics/next';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter' });
 const playfair = Playfair_Display({ subsets: ['latin'], variable: '--font-playfair' });
@@ -78,6 +80,8 @@ export default function RootLayout({
           {children}
         </main>
         <ConditionalFooter />
+        <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );
