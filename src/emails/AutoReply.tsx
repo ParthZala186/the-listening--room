@@ -205,82 +205,69 @@ export default function AutoReply({
                         </Button>
 
                         <Hr
-  style={{
-    margin: "40px 0",
-    borderColor: "#E8E6DF",
-  }}
-/>
+                            style={{
+                                margin: "40px 0",
+                                borderColor: "#E8E6DF",
+                            }}
+                        />
 
-<Section
-  style={{
-    textAlign: "center",
-    paddingBottom: "30px",
-  }}
->
+                        <Section
+                            style={{
+                                textAlign: "center",
+                                paddingBottom: "30px",
+                            }}
+                        >
 
-  <Img
-    src="https://aorta-morphing-trimmer.ngrok-free.dev/logo/primary-logo.png"
-    width="210"
-    alt="The Listening Room"
-    style={{
-      margin: "0 auto 24px",
-    }}
-  />
+                            <Img
+                                src="https://aorta-morphing-trimmer.ngrok-free.dev/logo/primary-logo.png"
+                                width="210"
+                                alt="The Listening Room"
+                                style={{
+                                    margin: "0 auto 24px",
+                                }}
+                            />
 
-  <Text
-    style={{
-      color: "#555",
-      fontSize: "15px",
-      lineHeight: "28px",
-      marginBottom: "10px",
-    }}
-  >
-    Counselling & Psychotherapy
-  </Text>
+                            <Text
+                                style={{
+                                    color: "#555",
+                                    fontSize: "15px",
+                                    lineHeight: "28px",
+                                    marginBottom: "10px",
+                                }}
+                            >
+                                Counselling & Psychotherapy
+                            </Text>
 
-  <Text
-    style={{
-      color: "#777",
-      fontSize: "14px",
-      marginBottom: "6px",
-    }}
-  >
-    📧 support@thelisteningroom.ca
-  </Text>
+                            <Text
+                                style={{
+                                    color: "#777",
+                                    fontSize: "14px",
+                                    marginBottom: "6px",
+                                }}
+                            >
+                                📧 support@thelisteningroom.ca
+                            </Text>
 
-  <Text
-    style={{
-      color: "#777",
-      fontSize: "14px",
-      marginBottom: "6px",
-    }}
-  >
-    📞 548-255-9555
-  </Text>
+                            <Text
+                                style={{
+                                    color: "#777",
+                                    fontSize: "14px",
+                                    marginBottom: "6px",
+                                }}
+                            >
+                                📞 548-255-9555
+                            </Text>
 
-  <Text
-    style={{
-      color: "#777",
-      fontSize: "14px",
-      marginBottom: "24px",
-    }}
-  >
-    🌐 https://thelisteningroom.ca
-  </Text>
-
-  <Text
-    style={{
-      color: "#9A9A9A",
-      fontSize: "12px",
-      lineHeight: "20px",
-    }}
-  >
-    © {new Date().getFullYear()} The Listening Room.
-    <br />
-    All rights reserved.
-  </Text>
-
-</Section>
+                            <Text
+                                style={{
+                                    color: "#777",
+                                    fontSize: "14px",
+                                    marginBottom: "24px",
+                                }}
+                            >
+                                🌐 https://thelisteningroom.ca
+                            </Text>
+                        </Section>
 
                         <Text
                             style={{

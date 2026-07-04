@@ -179,83 +179,80 @@ export default function ContactNotification({
                         </Section>
 
                         <Hr
-    style={{
-        margin: "40px 0",
-        borderColor: "#E8E6DF",
-    }}
-/>
+                            style={{
+                                margin: "40px 0",
+                                borderColor: "#E8E6DF",
+                            }}
+                        />
 
-<Section
-    style={{
-        textAlign: "center",
-        paddingBottom: "20px",
-    }}
->
+                        <Section
+                            style={{
+                                textAlign: "center",
+                                paddingBottom: "20px",
+                            }}
+                        >
 
-    <Img
-        src="https://aorta-morphing-trimmer.ngrok-free.dev/logo/primary-logo.png"
-        width="220"
-        alt="The Listening Room"
-        style={{
-            margin: "0 auto 20px",
-        }}
-    />
+                            <Img
+                                src="https://aorta-morphing-trimmer.ngrok-free.dev/logo/primary-logo.png"
+                                width="220"
+                                alt="The Listening Room"
+                                style={{
+                                    margin: "0 auto 20px",
+                                }}
+                            />
 
-    <Text
-        style={{
-            color: "#555",
-            fontSize: "15px",
-            marginBottom: "8px",
-        }}
-    >
-        Counselling & Psychotherapy
-    </Text>
+                            <Text
+                                style={{
+                                    color: "#555",
+                                    fontSize: "15px",
+                                    marginBottom: "8px",
+                                }}
+                            >
+                                Counselling & Psychotherapy
+                            </Text>
 
-    <Text
-        style={{
-            color: "#777",
-            fontSize: "14px",
-            marginBottom: "6px",
-        }}
-    >
-        📧 {process.env.NEXT_PUBLIC_EMAIL_ID}
-    </Text>
+                            <Text
+                                style={{
+                                    color: "#777",
+                                    fontSize: "14px",
+                                    marginBottom: "6px",
+                                }}
+                            >
+                                📧 {process.env.NEXT_PUBLIC_EMAIL_ID}
+                            </Text>
 
-    <Text
-        style={{
-            color: "#777",
-            fontSize: "14px",
-            marginBottom: "6px",
-        }}
-    >
-        📞 548-255-9555
-    </Text>
+                            <Text
+                                style={{
+                                    color: "#777",
+                                    fontSize: "14px",
+                                    marginBottom: "6px",
+                                }}
+                            >
+                                📞 548-255-9555
+                            </Text>
 
-    <Text
-        style={{
-            color: "#777",
-            fontSize: "14px",
-            marginBottom: "25px",
-        }}
-    >
-        🌐 https://thelisteningroom.ca
-    </Text>
+                            <Text
+                                style={{
+                                    color: "#777",
+                                    fontSize: "14px",
+                                    marginBottom: "25px",
+                                }}
+                            >
+                                🌐 https://thelisteningroom.ca
+                            </Text>
 
-    <Text
-        style={{
-            color: "#999",
-            fontSize: "12px",
-            lineHeight: "18px",
-        }}
-    >
-        © {new Date().getFullYear()} The Listening Room
-        <br />
-        All rights reserved.
-    </Text>
-
-</Section>
-
-                        
+                            <Text
+                                style={{
+                                    color: "#999",
+                                    fontSize: "12px",
+                                    lineHeight: "18px",
+                                }}
+                            >
+                                © {new Date().getFullYear()} The Listening Room
+                                <br />
+                                All rights reserved.
+                            </Text>
+                        </Section>
                     </Section>
                 </Container>
             </Body>

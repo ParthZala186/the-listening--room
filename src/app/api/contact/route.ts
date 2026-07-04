@@ -58,6 +58,7 @@ export async function POST(request: Request) {
     // Send email to Therapist
     // -------------------------
 
+    console.log("to: process.env.NEXT_PUBLIC_EMAIL_ID,?? ", process.env.NEXT_PUBLIC_EMAIL_ID,)
     await transporter.sendMail({
       from: `"The Listening Room" <${process.env.SMTP_USER}>`,
 
