@@ -21,7 +21,7 @@ export default function Home() {
     image: "https://thelisteningroom.com/images/minh-pham-OtXADkUh3-I-unsplash.jpg",
     description: "Compassionate online counselling for anxiety, stress, ADHD, life transitions, relationships, and more.",
     telephone: "548-255-9555",
-    email: "support@thelisteningrm.com",
+    email: process.env.NEXT_PUBLIC_EMAIL_ID,
     address: {
       "@type": "PostalAddress",
       addressLocality: "Ontario",

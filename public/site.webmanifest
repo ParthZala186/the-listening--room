@@ -1,0 +1,15 @@
+{
+    "name":"The Listening Room",
+    "short_name":"Listening Room",
+    "theme_color":"#2D4739",
+    "background_color":"#F9F8F6",
+    "display":"standalone",
+
+    "icons":[
+        {
+            "src":"/logo/favicon.png",
+            "sizes":"512x512",
+            "type":"image/png"
+        }
+    ]
+}

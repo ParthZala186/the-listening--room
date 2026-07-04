@@ -4,6 +4,7 @@ import { useState } from 'react';
 import { usePathname } from 'next/navigation';
 import { Menu, X, Leaf } from 'lucide-react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -27,19 +28,20 @@ export default function Navbar() {
         <div className="flex justify-between items-center h-24">
 
           {/* Logo Section */}
-          <Link href="/" className="flex items-center gap-3 group" onClick={closeMenu}>
-            <div className="w-10 h-10 rounded-full border border-[#2D4739]/30 flex items-center justify-center text-[#2D4739] bg-white/40 shadow-xs">
-              <Leaf className="w-5 h-5" strokeWidth={1.2} />
-            </div>
-            <div className="flex flex-col">
-              <span className="font-serif text-[22px] text-[#2C3E2B] leading-none mb-1 font-medium tracking-wide">
-                The Listening Room
-              </span>
-              <span className="text-[10px] text-[#5A6355] uppercase tracking-[0.18em] leading-none font-semibold">
-                Counselling & Psychotherapy
-              </span>
-            </div>
-          </Link>
+          <Link
+  href="/"
+  className="flex items-center shrink-0"
+  aria-label="The Listening Room Home"
+>
+  <Image
+    src="/logo/primary-logo.png"
+    alt="The Listening Room"
+    width={300}
+    height={90}
+    priority
+    className="h-14 lg:h-16 w-auto transition-transform duration-300 hover:scale-[1.02]"
+  />
+</Link>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
