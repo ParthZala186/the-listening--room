@@ -117,7 +117,7 @@ export default function Services() {
             return (
               <div
                 key={service.number}
-                className="group relative bg-[#FCFCFA] border border-[#E8E6DF] rounded-2xl p-7 flex flex-col hover:border-[#2D4739]/40 hover:shadow-md transition-all duration-300"
+                className="group relative bg-[#FCFCFA] border border-[#E8E6DF] rounded-2xl p-7 flex flex-col h-full hover:border-[#2D4739]/40 hover:shadow-md transition-all duration-300"
               >
                 {/* Number tag */}
                 {/* <span className="absolute top-6 right-6 font-sans text-[11px] font-semibold tracking-[0.15em] text-[#2D4739]/25 select-none">
@@ -154,6 +154,17 @@ export default function Services() {
                     </li>
                   ))}
                 </ul>
+                {/* CTA */}
+                <div className="mt-8 pt-6 border-t border-[#E8E6DF]">
+                  <Link
+                    href={process.env.NEXT_PUBLIC_PAID_METTING_URL || '#'}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center justify-center w-full rounded-md bg-[#2D4739] px-5 py-3 text-[13px] font-medium text-white transition-all duration-300 hover:bg-[#203328]"
+                  >
+                    Book a Session →
+                  </Link>
+                </div>
               </div>
             );
           })}
@@ -191,7 +202,7 @@ export default function Services() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 items-center">
             <Link
-              href="https://calendly.com/thelisteningrm-support/30min"
+              href={process.env.NEXT_PUBLIC_PAID_METTING_URL || '#'}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center px-8 py-3.5 bg-[#F9F8F6] text-[#2D4739] hover:bg-white transition-colors duration-300 text-[13.5px] rounded-[4px] tracking-wide font-medium font-sans"
