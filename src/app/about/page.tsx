@@ -95,9 +95,8 @@ export default function About() {
             return (
               <div
                 key={index}
-                className={`group flex flex-col items-center text-center px-4 lg:px-8 transition-all duration-500 hover:-translate-y-2 ${
-                  index !== expectations.length - 1 ? "lg:border-r lg:border-[#E8E6DF]/60" : ""
-                }`}
+                className={`group flex flex-col items-center text-center px-4 lg:px-8 transition-all duration-500 hover:-translate-y-2 ${index !== expectations.length - 1 ? "lg:border-r lg:border-[#E8E6DF]/60" : ""
+                  }`}
               >
                 <div className="mb-6 w-[78px] h-[78px] rounded-full bg-gradient-to-br from-[#F7F5F1] to-[#ECE8E0] flex items-center justify-center text-[#4A5443] border border-[#E8E6DF]/40 shadow-sm transition-all duration-500 group-hover:scale-110">
                   <Icon className="w-8 h-8" strokeWidth={1.2} aria-hidden="true" />
@@ -138,7 +137,7 @@ export default function About() {
               and speak openly without fear of judgment.
             </p>
             <p>
-              This practice was created to offer exactly that — a calm, supportive environment
+              This practice was created to offer exactly that a calm, supportive environment
               where you can bring your thoughts, emotions, and experiences just as they are.
               Every person&apos;s journey is unique, which is why counselling is approached with
               curiosity, compassion, and respect for your individual story.
@@ -203,13 +202,11 @@ export default function About() {
 
               <div className="mt-8 space-y-7 text-[#5A6355] text-[16px] leading-8">
                 <p>
-                  I have always been someone people naturally felt comfortable talking to.
-                  Long before I became a psychotherapist, friends, family, colleagues, and
-                  even people I had just met often shared their stories, struggles, hopes,
-                  and fears with me.
+                  Long before I became a psychotherapist, I found that friends, family, colleagues, and
+                  even strangers naturally felt comforatable opening up to me about their experiences, challenges, hopes and fears.
                 </p>
                 <p>
-                  I didn&apos;t always have the answers, but I genuinely cared — and I listened.
+                  I didn&apos;t always have the answers, but I genuinely cared and I listened.
                   Over time I realized that behind every person is a unique story waiting to
                   be understood. That realization became a calling.
                 </p>
@@ -221,7 +218,7 @@ export default function About() {
                 </p>
                 <p>
                   This belief ultimately led me to pursue psychotherapy and create{" "}
-                  <strong className="text-[#2D4739]">The Listening Room</strong> — a space where
+                  <strong className="text-[#2D4739]">The Listening Room</strong> a space where
                   people could pause from the demands of everyday life, feel supported, and know
                   they don&apos;t have to navigate life&apos;s challenges alone.
                 </p>

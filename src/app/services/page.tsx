@@ -81,7 +81,7 @@ export default function Services() {
         heading="Compassionate support tailored to you."
         description={
           <p>
-            Life can feel overwhelming at times — like your thoughts are too heavy to hold on your own.
+            Life can feel overwhelming at times like your thoughts are too heavy to hold on your own.
             The Listening Room is a space where you can slow down, speak freely, and feel truly heard.
             Support for a wide range of challenges, so you can feel better, grow, and thrive.
           </p>
@@ -95,7 +95,7 @@ export default function Services() {
       <div className="bg-[#2D4739] py-10 px-4 sm:px-6 lg:px-8">
         <div className="max-w-3xl mx-auto text-center">
           <p className="font-serif text-[20px] lg:text-[24px] text-[#F9F8F6] leading-[1.6] font-normal">
-            &ldquo;This is a place for reflection, understanding, and support —
+            &ldquo;This is a place for reflection, understanding, and support
             without pressure or judgment.&rdquo;
           </p>
         </div>
@@ -120,9 +120,9 @@ export default function Services() {
                 className="group relative bg-[#FCFCFA] border border-[#E8E6DF] rounded-2xl p-7 flex flex-col hover:border-[#2D4739]/40 hover:shadow-md transition-all duration-300"
               >
                 {/* Number tag */}
-                <span className="absolute top-6 right-6 font-sans text-[11px] font-semibold tracking-[0.15em] text-[#2D4739]/25 select-none">
+                {/* <span className="absolute top-6 right-6 font-sans text-[11px] font-semibold tracking-[0.15em] text-[#2D4739]/25 select-none">
                   {service.number}
-                </span>
+                </span> */}
 
                 {/* Icon circle */}
                 <div className="mb-5 w-12 h-12 rounded-full bg-[#EFECE6] flex items-center justify-center text-[#2D4739] shrink-0 border border-[#E8E6DF]/60 group-hover:bg-[#2D4739] group-hover:text-white transition-colors duration-300">
@@ -184,18 +184,19 @@ export default function Services() {
             Ready to begin?
           </span>
           <h3 className="font-serif text-[28px] lg:text-[34px] text-[#F9F8F6] font-normal leading-[1.2] mb-4">
-            Not sure where to start?
+            Ready to Take the Next Step?
           </h3>
-          <p className="text-[15px] text-[#F9F8F6]/70 leading-[1.7] mb-10 max-w-md font-sans font-normal">
-            Let&apos;s talk. A free 15-minute consultation is a no-pressure way to see if we&apos;re a good fit.
+          <p className="text-[15px] text-[#F9F8F6]/70 leading-[1.7] mb-10 max-w-xl font-sans font-normal">
+            Whether you&apos;re looking for support with anxiety, relationships, life transitions, or personal growth, booking a session is the first step toward meaningful change. I am here to support you in a safe, compassionate, and confidential space.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 items-center">
             <Link
-              href={process.env.NEXT_PUBLIC_MEETING_URL || '#'}
+              href="https://calendly.com/thelisteningrm-support/30min"
               target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center justify-center px-8 py-3.5 bg-[#F9F8F6] text-[#2D4739] hover:bg-white transition-colors duration-300 text-[13.5px] rounded-[4px] tracking-wide font-medium font-sans"
             >
-              Book a Free 15-Minute Consultation &rarr;
+              Book a Session &rarr;
             </Link>
             <Link
               href="/contact"

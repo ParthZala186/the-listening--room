@@ -156,7 +156,7 @@ export default function FAQ() {
                 You don&apos;t have to figure it out alone.
               </h4>
               <p className="text-[13.5px] text-[#2D4739]/70 font-normal font-sans">
-                I&apos;m here to listen and support you.
+                I am here to listen and support you.
               </p>
             </div>
           </div>

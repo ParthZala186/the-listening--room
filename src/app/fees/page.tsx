@@ -46,7 +46,7 @@ export default function Fees() {
           <>
             <p className="font-medium">Accessible, transparent, and supportive care.</p>
             <p className="text-[#555555]">
-              Invest in your well-being — you don&apos;t have to navigate it alone.
+              Invest in your well-being you don&apos;t have to navigate it alone.
             </p>
           </>
         }

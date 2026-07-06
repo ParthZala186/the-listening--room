@@ -96,7 +96,7 @@ export default function Contact() {
                 heading={<>Let&apos;s Connect <br /> <span className="italic font-light">We&apos;re Here for You</span></>}
                 description={
                     <p>
-                        Whether you have questions, want to learn more about therapy, or are ready to book a session — we&apos;d love to hear from you.
+                        Whether you have questions, want to learn more about therapy, or are ready to book a session we&apos;d love to hear from you.
                     </p>
                 }
                 imageSrc="/images/AboutRoomImage.jpg"
@@ -111,21 +111,21 @@ export default function Contact() {
                     <div>
                         <div className="text-center mb-8 flex flex-col items-center">
 
-    <Image
-        src="/logo/brand-mark.png"
-        alt=""
-        width={44}
-        height={44}
-        className="mb-4"
-    />
+                            <Image
+                                src="/logo/brand-mark.png"
+                                alt=""
+                                width={44}
+                                height={44}
+                                className="mb-4"
+                            />
 
-    <h2 className="font-serif text-[18px] text-[#2D4739] font-medium tracking-wide">
-        Send Us a Message
-    </h2>
+                            <h2 className="font-serif text-[18px] text-[#2D4739] font-medium tracking-wide">
+                                Send Us a Message
+                            </h2>
 
-    <LeafDivider />
+                            <LeafDivider />
 
-</div>
+                        </div>
 
                         <form onSubmit={handleSubmit} className="space-y-5">
                             <div>
@@ -293,12 +293,12 @@ export default function Contact() {
                         <div className="hidden md:block">
                             <div className="text-center mb-8 flex flex-col items-center">
                                 <Image
-        src="/logo/brand-mark.png"
-        alt=""
-        width={44}
-        height={44}
-        className="mb-4"
-    />
+                                    src="/logo/brand-mark.png"
+                                    alt=""
+                                    width={44}
+                                    height={44}
+                                    className="mb-4"
+                                />
                                 <h2 className="font-serif text-[18px] text-[#2D4739] font-medium tracking-wide">Other Ways to Connect</h2>
                                 <LeafDivider />
                             </div>

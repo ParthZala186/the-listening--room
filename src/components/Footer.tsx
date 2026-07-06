@@ -45,7 +45,7 @@ export default function Footer() {
             <Link href="/" className="inline-block">
 
               <Image
-                src="/logo/primary-logo.png"
+                src="/logo/primary-logo-dark.png"
                 alt="The Listening Room"
                 width={300}
                 height={90}
@@ -254,7 +254,7 @@ export default function Footer() {
 
             {/* Footer Links */}
 
-            <div className="flex items-center gap-6">
+            {/* <div className="flex items-center gap-6">
 
               <Link
                 href="/privacy"
@@ -272,7 +272,7 @@ export default function Footer() {
                 Terms of Use
               </Link>
 
-            </div>
+            </div> */}
 
           </div>
 

@@ -25,23 +25,23 @@ export default function Navbar() {
     // Matches the soft light tone from Section 1
     <nav className="w-full bg-white relative z-50 font-sans antialiased">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-24">
+        <div className="flex justify-between items-center h-28">
 
           {/* Logo Section */}
           <Link
-  href="/"
-  className="flex items-center shrink-0"
-  aria-label="The Listening Room Home"
->
-  <Image
-    src="/logo/primary-logo.png"
-    alt="The Listening Room"
-    width={300}
-    height={90}
-    priority
-    className="h-14 lg:h-16 w-auto transition-transform duration-300 hover:scale-[1.02]"
-  />
-</Link>
+            href="/"
+            className="flex items-center shrink-0"
+            aria-label="The Listening Room Home"
+          >
+            <Image
+              src="/logo/primary-logo-dark.png"
+              alt="The Listening Room"
+              width={300}
+              height={90}
+              priority
+              className="h-14 lg:h-20 w-auto transition-transform duration-300 hover:scale-[1.02]"
+            />
+          </Link>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
