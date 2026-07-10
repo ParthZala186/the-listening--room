@@ -112,7 +112,7 @@ export default function Contact() {
                         <div className="text-center mb-8 flex flex-col items-center">
 
                             <Image
-                                src="/logo/brand-mark.png"
+                                src={`${process.env.NEXT_PUBLIC_SITE_URL}/logo/brand-mark.png`}
                                 alt=""
                                 width={44}
                                 height={44}
@@ -293,7 +293,7 @@ export default function Contact() {
                         <div className="hidden md:block">
                             <div className="text-center mb-8 flex flex-col items-center">
                                 <Image
-                                    src="/logo/brand-mark.png"
+                                    src={`${process.env.NEXT_PUBLIC_SITE_URL}/logo/brand-mark.png`}
                                     alt=""
                                     width={44}
                                     height={44}

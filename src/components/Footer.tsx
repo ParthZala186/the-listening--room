@@ -45,7 +45,7 @@ export default function Footer() {
             <Link href="/" className="inline-block">
 
               <Image
-                src="/logo/primary-logo-dark.png"
+                src={`${process.env.NEXT_PUBLIC_SITE_URL}/logo/primary-logo-dark.png`}
                 alt="The Listening Room"
                 width={300}
                 height={90}

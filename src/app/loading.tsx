@@ -7,7 +7,7 @@ export default function Loading() {
       <div className="flex flex-col items-center gap-6">
 
         <Image
-          src="/logo/brand-mark.png"
+          src={`${process.env.NEXT_PUBLIC_SITE_URL}/logo/brand-mark.png`}
           alt=""
           width={70}
           height={70}
