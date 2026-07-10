@@ -178,7 +178,7 @@ export default function About() {
             {/* Photo */}
             <div className="relative overflow-hidden rounded-[32px] border border-[#E8E6DF] shadow-lg ring-1 ring-[#E8E6DF]">
               <Image
-                src="/images/foram.jpeg"
+                src={`${process.env.NEXT_PUBLIC_SITE_URL}/images/foram.jpeg`}
                 alt="Foram Trivedi — Registered Psychotherapist"
                 width={700}
                 height={900}
