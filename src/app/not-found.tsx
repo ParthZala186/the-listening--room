@@ -8,7 +8,7 @@ export default function NotFound() {
       <div className="max-w-xl mx-auto text-center">
 
         <Image
-          src={`${process.env.NEXT_PUBLIC_SITE_URL}/logo/brand-mark.png`}
+          src={`/logo/brand-mark.png`}
           alt="The Listening Room"
           width={95}
           height={95}
