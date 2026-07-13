@@ -66,7 +66,7 @@ export default function ContactNotification({
                             }}
                         >
                             <Img
-                                src="https://aorta-morphing-trimmer.ngrok-free.dev/logo/primary-logo.png"
+                                src={`${process.env.NEXT_PUBLIC_SITE_URL}/logo/primary-logo-dark.png`}
                                 width="230"
                                 alt="The Listening Room"
                                 style={{
@@ -193,7 +193,7 @@ export default function ContactNotification({
                         >
 
                             <Img
-                                src="https://aorta-morphing-trimmer.ngrok-free.dev/logo/primary-logo.png"
+                                src={`${process.env.NEXT_PUBLIC_SITE_URL}/logo/primary-logo-dark.png`}
                                 width="220"
                                 alt="The Listening Room"
                                 style={{
