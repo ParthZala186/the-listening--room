@@ -60,7 +60,7 @@ export default function AutoReply({
                             }}
                         >
                             <Img
-                                src="https://aorta-morphing-trimmer.ngrok-free.dev/logo/primary-logo.png"
+                                src={`${process.env.NEXT_PUBLIC_SITE_URL}/logo/primary-logo-dark.png`}
                                 width="230"
                                 alt="The Listening Room"
                                 style={{
@@ -219,7 +219,7 @@ export default function AutoReply({
                         >
 
                             <Img
-                                src="https://aorta-morphing-trimmer.ngrok-free.dev/logo/primary-logo.png"
+                                src={`${process.env.NEXT_PUBLIC_SITE_URL}/logo/primary-logo-dark.png`}
                                 width="210"
                                 alt="The Listening Room"
                                 style={{
@@ -245,7 +245,7 @@ export default function AutoReply({
                                     marginBottom: "6px",
                                 }}
                             >
-                                📧 support@thelisteningroom.ca
+                                📧 support@thelisteningroom.com
                             </Text>
 
                             <Text
@@ -265,7 +265,7 @@ export default function AutoReply({
                                     marginBottom: "24px",
                                 }}
                             >
-                                🌐 https://thelisteningroom.ca
+                                🌐 https://thelisteningroom.com
                             </Text>
                         </Section>
 

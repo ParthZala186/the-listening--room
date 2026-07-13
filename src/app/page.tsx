@@ -73,7 +73,7 @@ export default function Home() {
         {/* Right Side: Hero Image sits edge-to-edge on right monitor boundary */}
         <div className="relative w-full md:w-[45%] aspect-[4/3] md:aspect-auto md:h-[550px] lg:h-[600px] shrink-0">
           <Image
-            src={`${process.env.NEXT_PUBLIC_SITE_URL}/images/HeroImage.jpg`}
+            src={`/images/HeroImage.jpg`}
             alt="Calming therapy room layout with a light warm lounge chair"
             fill
             className="object-cover object-center"
@@ -122,7 +122,7 @@ export default function Home() {
           {/* Left Image Aspect Container */}
           <div className="relative w-full h-[300px] md:h-auto md:w-[45%] lg:w-[40%] xl:w-[35%] shrink-0">
             <Image
-              src={`${process.env.NEXT_PUBLIC_SITE_URL}/images/wellness-image.jpg`}
+              src={`/images/wellness-image.jpg`}
               alt="Vase and burning candle on wooden surface"
               fill
               className="object-cover object-center"
