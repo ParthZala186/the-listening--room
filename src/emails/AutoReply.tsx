@@ -245,7 +245,7 @@ export default function AutoReply({
                                     marginBottom: "6px",
                                 }}
                             >
-                                📧 support@thelisteningroom.com
+                                📧 support@thelisteningrm.com
                             </Text>
 
                             <Text
@@ -265,7 +265,7 @@ export default function AutoReply({
                                     marginBottom: "24px",
                                 }}
                             >
-                                🌐 https://thelisteningroom.com
+                                🌐 https://thelisteningrm.com
                             </Text>
                         </Section>
 

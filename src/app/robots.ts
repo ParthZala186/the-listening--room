@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: '*', // Allows all search engines
       allow: '/',
     },
-    sitemap: 'https://thelisteningroom.com/sitemap.xml',
+    sitemap: 'https://thelisteningrm.com/sitemap.xml',
   };
 }
