@@ -2,7 +2,7 @@
 import { MetadataRoute } from 'next';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://thelisteningroom.com'; // Replace with your actual domain when launching
+  const baseUrl = 'https://thelisteningrm.com'; // Replace with your actual domain when launching
 
   return [
     {

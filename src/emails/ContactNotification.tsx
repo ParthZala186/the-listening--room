@@ -238,7 +238,7 @@ export default function ContactNotification({
                                     marginBottom: "25px",
                                 }}
                             >
-                                🌐 https://thelisteningroom.ca
+                                🌐 https://thelisteningrm.com
                             </Text>
 
                             <Text
