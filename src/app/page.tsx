@@ -18,7 +18,7 @@ export default function Home() {
     "@context": "https://schema.org",
     "@type": "MedicalClinic",
     name: "The Listening Room",
-    image: "https://thelisteningroom.com/images/minh-pham-OtXADkUh3-I-unsplash.jpg",
+    image: "https://thelisteningrm.com/images/minh-pham-OtXADkUh3-I-unsplash.jpg",
     description: "Compassionate online counselling for anxiety, stress, ADHD, life transitions, relationships, and more.",
     telephone: "548-255-9555",
     email: process.env.NEXT_PUBLIC_EMAIL_ID,
@@ -28,7 +28,7 @@ export default function Home() {
       addressRegion: "ON",
       addressCountry: "CA",
     },
-    url: "https://thelisteningroom.com",
+    url: "https://thelisteningrm.com",
     medicalSpecialty: ["Psychiatric", "MentalHealth"],
   };
 
